@@ -1,0 +1,24 @@
+{
+  "name": "tactics-rpg",
+  "version": "1.0.0",
+  "description": "A website based RPG in the style of Final Fantasy Tactics.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyonsXII/Tactics-RPG.git"
+  },
+  "author": "Michael Lyons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyonsXII/Tactics-RPG/issues"
+  },
+  "homepage": "https://github.com/LyonsXII/Tactics-RPG#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
