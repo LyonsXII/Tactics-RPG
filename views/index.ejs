@@ -8,11 +8,18 @@
 </head>
 <body>
   
-  <div class="grid-container">
-    <% for (let i=0; i<144; i++) { %>
-      <div class="tile"></div>
-    <% } %>
+  <div class="game-container">
+    <div style="grid-column: span 2; grid-row: span 2;" class="grid-container">
+      <% for (let i=0; i<144; i++) { %>
+        <div class="tile"></div>
+      <% } %>
+    </div>
+
+    <div class="ui">
+      <h1>Hey</h1>
+    </div>
   </div>
 
+  <script src="main.js" charset="utf-8"></script>
 </body>
 </html>
