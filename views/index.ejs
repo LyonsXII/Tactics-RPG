@@ -9,14 +9,19 @@
 <body>
   
   <div class="game-container">
-    <div style="grid-column: span 2; grid-row: span 2;" class="grid-container">
+    <div class="ui">
+      <div class="option"><h1>Move</h1></div>
+      <div class="option"><h1>Attack</h1></div>
+      <div class="option"><h1>Skill</h1></div>
+      <div class="option"><h1>Magic</h1></div>
+      <div class="option"><h1>Defend</h1></div>
+      <div class="option"><h1>Item</h1></div>
+    </div>
+
+    <div class="grid-container">
       <% for (let i=0; i<144; i++) { %>
         <div class="tile"></div>
       <% } %>
-    </div>
-
-    <div class="ui">
-      <h1>Hey</h1>
     </div>
   </div>
 
